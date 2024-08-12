@@ -1,0 +1,33 @@
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background: linear-gradient(to right, #f9f9f9, #e2e2e2);
+    text-align: center;
+  }
+  
+  .about-content {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .about-title {
+    font-size: 3rem;
+    color: #6d28d9;
+    margin-bottom: 10px;
+  }
+  
+  .about-description {
+    font-size: 1.25rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .about-svg-container {
+    margin-top: 20px;
+  }
+  
