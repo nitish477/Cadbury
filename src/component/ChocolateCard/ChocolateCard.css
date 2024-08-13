@@ -1,0 +1,56 @@
+
+.chocolate-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 200px;  /* Adjust this width as needed */
+  overflow: hidden;
+  text-align: center;
+  padding: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.chocolate-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.chocolate-card img {
+  width: 100%;
+  height: auto;
+}
+
+.chocolate-card h2 {
+  font-size: 18px;
+  margin: 15px 0;
+}
+
+.chocolate-card p {
+  font-size: 14px;
+  color: #333;
+  margin: 5px 0;
+}
+
+/* Additional styling for chocolate-card content */
+.chocolate-card-content {
+  padding: 15px;
+}
+
+.chocolate-card-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.chocolate-card-description {
+  font-size: 0.9em;
+  color: #777;
+  margin-bottom: 15px;
+}
+
+.chocolate-card-price {
+  font-size: 1em;
+  color: #e74c3c;
+  font-weight: bold;
+}

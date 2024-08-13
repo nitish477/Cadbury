@@ -1,7 +1,28 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './Home.css'; // Ensure to create this CSS file
-
+import Chocolatedata from "./../../assect/Chocolate.json"
+import ChocolateCard from "./../../component/ChocolateCard/ChocolateCard"
+import toast, { Toaster } from 'react-hot-toast';
 function Home() {
+  const [chocolates, setChocolates] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+
+  useEffect(()=>{
+    if (loading) {
+      toast.loading("Wait..🤑")
+   }
+    setTimeout(()=>{
+     setChocolates(Chocolatedata.chocolates) 
+      setLoading(false)
+      toast.dismiss()
+      toast.success("Fetch")
+    },3000)
+  },[])
+ 
+
+ 
+
   return (
     <div className="home-container">
       <div className="content">
@@ -28,7 +49,13 @@ function Home() {
             />
           </svg>
         </div>
+        <div className="chocolate-cards">
+          {chocolates.map((chocolate)=>{
+            return <ChocolateCard key={chocolate.id} chocolate={chocolate}/>
+          })}
+        </div>
       </div>
+      <Toaster/>
     </div>
   );
 }

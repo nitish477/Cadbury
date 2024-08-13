@@ -1,0 +1,245 @@
+{
+    "chocolates": [
+      {
+        "id": "choco001",
+        "name": "Lindt Excellence 70% Cocoa",
+        "brand": "Lindt",
+        "type": "Dark",
+        "price": "$4.99",
+        "image": "https://example.com/images/lindt_excellence_70.png"
+      },
+      {
+        "id": "choco002",
+        "name": "Cadbury Dairy Milk",
+        "brand": "Cadbury",
+        "type": "Milk",
+        "price": "$3.49",
+        "image": "https://example.com/images/cadbury_dairy_milk.png"
+      },
+      {
+        "id": "choco003",
+        "name": "Ghirardelli Intense Dark 72%",
+        "brand": "Ghirardelli",
+        "type": "Dark",
+        "price": "$5.29",
+        "image": "https://example.com/images/ghirardelli_intense_dark.png"
+      },
+      {
+        "id": "choco004",
+        "name": "Godiva Milk Chocolate",
+        "brand": "Godiva",
+        "type": "Milk",
+        "price": "$6.49",
+        "image": "https://example.com/images/godiva_milk_chocolate.png"
+      },
+      {
+        "id": "choco005",
+        "name": "Toblerone Milk Chocolate",
+        "brand": "Toblerone",
+        "type": "Milk",
+        "price": "$3.99",
+        "image": "https://example.com/images/toblerone_milk_chocolate.png"
+      },
+      {
+        "id": "choco006",
+        "name": "Ferrero Rocher",
+        "brand": "Ferrero",
+        "type": "Milk",
+        "price": "$8.99",
+        "image": "https://example.com/images/ferrero_rocher.png"
+      },
+      {
+        "id": "choco007",
+        "name": "Hershey's Milk Chocolate Bar",
+        "brand": "Hershey's",
+        "type": "Milk",
+        "price": "$2.99",
+        "image": "https://example.com/images/hersheys_milk_chocolate.png"
+      },
+      {
+        "id": "choco008",
+        "name": "Valrhona Le Noir 64%",
+        "brand": "Valrhona",
+        "type": "Dark",
+        "price": "$7.49",
+        "image": "https://example.com/images/valrhona_le_noir.png"
+      },
+      {
+        "id": "choco009",
+        "name": "Maison du Chocolat Dark Ganache",
+        "brand": "Maison du Chocolat",
+        "type": "Dark",
+        "price": "$9.99",
+        "image": "https://example.com/images/maison_du_chocolat_dark.png"
+      },
+      {
+        "id": "choco010",
+        "name": "Lindt Lindor Truffles",
+        "brand": "Lindt",
+        "type": "Milk",
+        "price": "$10.49",
+        "image": "https://example.com/images/lindt_lindor_truffles.png"
+      },
+      {
+        "id": "choco011",
+        "name": "Ghirardelli Milk Chocolate Caramel",
+        "brand": "Ghirardelli",
+        "type": "Milk",
+        "price": "$5.79",
+        "image": "https://example.com/images/ghirardelli_milk_chocolate_caramel.png"
+      },
+      {
+        "id": "choco012",
+        "name": "Nestlé Crunch",
+        "brand": "Nestlé",
+        "type": "Milk",
+        "price": "$3.29",
+        "image": "https://example.com/images/nestle_crunch.png"
+      },
+      {
+        "id": "choco013",
+        "name": "Dove Promises Dark Chocolate",
+        "brand": "Dove",
+        "type": "Dark",
+        "price": "$4.79",
+        "image": "https://example.com/images/dove_promises_dark.png"
+      },
+      {
+        "id": "choco014",
+        "name": "Theo Organic Dark Chocolate",
+        "brand": "Theo",
+        "type": "Dark",
+        "price": "$5.99",
+        "image": "https://example.com/images/theo_organic_dark.png"
+      },
+      {
+        "id": "choco015",
+        "name": "Green & Black's Organic Milk Chocolate",
+        "brand": "Green & Black's",
+        "type": "Milk",
+        "price": "$4.99",
+        "image": "https://example.com/images/green_black_organic_milk.png"
+      },
+      {
+        "id": "choco016",
+        "name": "Chuao Chocolatier Firecracker",
+        "brand": "Chuao Chocolatier",
+        "type": "Dark",
+        "price": "$6.79",
+        "image": "https://example.com/images/chuao_firecracker.png"
+      },
+      {
+        "id": "choco017",
+        "name": "Lindt Excellence White Chocolate",
+        "brand": "Lindt",
+        "type": "White",
+        "price": "$4.99",
+        "image": "https://example.com/images/lindt_excellence_white.png"
+      },
+      {
+        "id": "choco018",
+        "name": "Milk Bar Milk Chocolate",
+        "brand": "Milk Bar",
+        "type": "Milk",
+        "price": "$5.49",
+        "image": "https://example.com/images/milk_bar_milk_chocolate.png"
+      },
+      {
+        "id": "choco019",
+        "name": "Cadbury Flake",
+        "brand": "Cadbury",
+        "type": "Milk",
+        "price": "$2.49",
+        "image": "https://example.com/images/cadbury_flake.png"
+      },
+      {
+        "id": "choco020",
+        "name": "Barkthins Dark Chocolate Almond",
+        "brand": "Barkthins",
+        "type": "Dark",
+        "price": "$6.29",
+        "image": "https://example.com/images/barkthins_dark_chocolate_almond.png"
+      },
+      {
+        "id": "choco021",
+        "name": "Alter Eco Blackout Dark Chocolate",
+        "brand": "Alter Eco",
+        "type": "Dark",
+        "price": "$5.79",
+        "image": "https://example.com/images/alter_eco_blackout.png"
+      },
+      {
+        "id": "choco022",
+        "name": "Lindt Excellence A Touch of Sea Salt",
+        "brand": "Lindt",
+        "type": "Dark",
+        "price": "$5.99",
+        "image": "https://example.com/images/lindt_excellence_sea_salt.png"
+      },
+      {
+        "id": "choco023",
+        "name": "Mast Brothers Dark Chocolate",
+        "brand": "Mast Brothers",
+        "type": "Dark",
+        "price": "$7.99",
+        "image": "https://example.com/images/mast_brothers_dark.png"
+      },
+      {
+        "id": "choco024",
+        "name": "Dove Milk Chocolate",
+        "brand": "Dove",
+        "type": "Milk",
+        "price": "$4.29",
+        "image": "https://example.com/images/dove_milk_chocolate.png"
+      },
+      {
+        "id": "choco025",
+        "name": "Lindt Swiss Chocolate",
+        "brand": "Lindt",
+        "type": "Milk",
+        "price": "$4.49",
+        "image": "https://example.com/images/lindt_swiss_chocolate.png"
+      },
+      {
+        "id": "choco026",
+        "name": "Ghirardelli Squares Dark Chocolate",
+        "brand": "Ghirardelli",
+        "type": "Dark",
+        "price": "$5.59",
+        "image": "https://example.com/images/ghirardelli_squares_dark.png"
+      },
+      {
+        "id": "choco027",
+        "name": "Theo Coconut Curry Dark Chocolate",
+        "brand": "Theo",
+        "type": "Dark",
+        "price": "$6.49",
+        "image": "https://example.com/images/theo_coconut_curry.png"
+      },
+      {
+        "id": "choco028",
+        "name": "Ritter Sport Milk Chocolate",
+        "brand": "Ritter Sport",
+        "type": "Milk",
+        "price": "$3.79",
+        "image": "https://example.com/images/ritter_sport_milk.png"
+      },
+      {
+        "id": "choco029",
+        "name": "Endangered Species Dark Chocolate",
+        "brand": "Endangered Species",
+        "type": "Dark",
+        "price": "$4.69",
+        "image": "https://example.com/images/endangered_species_dark.png"
+      },
+      {
+        "id": "choco030",
+        "name": "Coppeneur Dark Chocolate",
+        "brand": "Coppeneur",
+        "type": "Dark",
+        "price": "$7.59",
+        "image": "https://example.com/images/coppeneur_dark.png"
+      }
+    ]
+  }
+  
