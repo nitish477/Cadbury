@@ -1,33 +1,124 @@
+/* Reset some default browser styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* Container for the entire About section */
 .about-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 100vh;
-    background: linear-gradient(to right, #f9f9f9, #e2e2e2);
-    text-align: center;
-  }
-  
-  .about-content {
-    padding: 20px;
-    background-color: #ffffff;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  }
-  
-  .about-title {
-    font-size: 3rem;
-    color: #6d28d9;
-    margin-bottom: 10px;
-  }
-  
-  .about-description {
-    font-size: 1.25rem;
-    color: #333;
-    margin-bottom: 20px;
-  }
-  
-  .about-svg-container {
-    margin-top: 20px;
-  }
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+/* Center the content within the container */
+.about-content {
+  text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+}
+
+/* Style for the title */
+.about-title {
+  font-size: 2.5rem;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+/* Style for the description */
+.about-description {
+  font-size: 1.2rem;
+  color: #666666;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+/* Container for the SVG */
+.about-svg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+/* Style for the SVG */
+.about-svg-container svg {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Team section */
+.about-team {
+  margin-top: 40px;
+}
+
+.team-title {
+  font-size: 2rem;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+.team-members {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.team-member {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 250px;
+  text-align: center;
+}
+
+.team-photo {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.team-name {
+  font-size: 1.5rem;
+  color: #333333;
+  margin-bottom: 5px;
+}
+
+.team-role {
+  font-size: 1.1rem;
+  color: #888888;
+  margin-bottom: 10px;
+}
+
+.team-bio {
+  font-size: 1rem;
+  color: #666666;
+}
+
+/* History section */
+.about-history {
+  margin-top: 40px;
+}
+
+.history-title {
+  font-size: 2rem;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+.history-text {
+  font-size: 1.2rem;
+  color: #666666;
+  line-height: 1.6;
+}

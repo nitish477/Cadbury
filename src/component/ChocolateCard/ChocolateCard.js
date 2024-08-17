@@ -4,7 +4,7 @@ import './ChocolateCard.css';
 const ChocolateCard = ({ chocolate }) => {
   return (
     <div className="chocolate-card">
-      <img src={chocolate.image} alt={chocolate.name} loading='lazy'/>
+      <img src={chocolate.image} alt={chocolate.name} loading='lazy' style={{objectFit:"cover",}}/>
       <h2>{chocolate.name}</h2>
       <p><strong>Brand:</strong> {chocolate.brand}</p>
       <p><strong>Type:</strong> {chocolate.type}</p>
