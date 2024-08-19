@@ -16,15 +16,19 @@
   margin: 0 20px; 
 }
 
-.nav-item a {
+.nav-item button {
+  background: none;
+  border: none;
   color: #333; 
-  text-decoration: none;
   font-size: 18px;
   font-weight: bold; 
-  transition: color 0.3s, transform 0.3s; 
+  text-decoration: none;
+  cursor: pointer;
+  padding: 0;
+  transition: color 0.3s, transform 0.3s;
 }
 
-.nav-item a:hover {
+.nav-item button:hover {
   color: #f57f17; 
   text-decoration: underline;
   transform: scale(1.05); 

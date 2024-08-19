@@ -1,19 +1,22 @@
 import React from 'react';
 import './Navbar.css';
-import { Link } from 'react-router-dom';
 
 const Navbar = () => {
+  const handleNavigation = (path) => {
+    window.location.href = path;
+  };
+
   return (
     <nav className="navbar">
       <ul className="nav-links">
         <li className="nav-item">
-          <Link to="/">Home</Link>
+          <button onClick={() => handleNavigation('/')}>Home</button>
         </li>
         <li className="nav-item">
-          <Link to="/about">About</Link>
+          <button onClick={() => handleNavigation('/about')}>About</button>
         </li>
         <li className="nav-item">
-          <Link to="/contact">Contact</Link>
+          <button onClick={() => handleNavigation('/contact')}>Contact</button>
         </li>
       </ul>
     </nav>
