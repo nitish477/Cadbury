@@ -17,7 +17,7 @@ function Home() {
       setLoading(false)
       toast.dismiss()
       toast.success("Fetch")
-    },3000)
+    },0)
   },[])
  
 
